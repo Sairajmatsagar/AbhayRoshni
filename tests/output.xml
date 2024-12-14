@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.4 on win32)" generated="2024-12-12T20:15:28.440791" rpa="false" schemaversion="5">
+<suite id="s1" name="Radio" source="C:\Users\HP\PycharmProjects\AbhayrohniRobot\tests\radio.robot">
+<test id="s1-t1" name="selectradiobutton" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-12T20:15:29.035963" level="INFO">Opening browser 'chrome' to base url 'https://omayo.blogspot.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-12T20:15:29.035963" elapsed="34.436611"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-12-12T20:16:03.472574" elapsed="0.041955"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>10seconds</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-12-12T20:16:03.515895" elapsed="0.006677"/>
+</kw>
+<kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
+<msg time="2024-12-12T20:16:03.523569" level="INFO">${speed} = 10 seconds</msg>
+<var>${speed}</var>
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2024-12-12T20:16:03.523569" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-12T20:16:03.524566" elapsed="0.001474"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-12-12T20:16:03.527168" level="INFO">Clicking button 'xpath: //button[text()='Dropdown']'.</msg>
+<arg>xpath: //button[text()='Dropdown']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-12T20:16:03.527168" elapsed="0.328726"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-12-12T20:16:03.855894" level="INFO">Clicking link 'link:Facebook'.</msg>
+<arg>link:Facebook</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-12T20:16:03.855894" elapsed="12.781324"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-12-12T20:16:16.637218" elapsed="2.386178"/>
+</kw>
+<status status="PASS" start="2024-12-12T20:15:29.035963" elapsed="49.987433"/>
+</test>
+<status status="PASS" start="2024-12-12T20:15:28.440791" elapsed="50.582605"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Radio">Radio</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

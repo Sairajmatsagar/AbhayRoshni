@@ -1,0 +1,18 @@
+1733551779277	geckodriver	INFO	Listening on 127.0.0.1:59448
+1733551782418	mozrunner::runner	INFO	Running command: "C:\\Users\\HP\\.cache\\selenium\\firefox\\win64\\133.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 9449" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileYB7hWO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1733551784742	Marionette	INFO	Marionette enabled
+1733551785140	Marionette	INFO	Listening on port 59490
+WebDriver BiDi listening on ws://127.0.0.1:59449
+Read port: 59490
+1733551785481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59449/devtools/browser/24220c34-be15-47e8-bc64-796ff0b73d35
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v4i9wo4/yt/l/en_GB/V7WYxv1Q9gC.js, line 102: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1733551892001	Marionette	INFO	Stopped listening on port 59490
+Dynamically enable window occlusion 1
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
